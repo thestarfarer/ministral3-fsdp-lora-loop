@@ -39,6 +39,10 @@ Edit `CONFIG` dict in `train.py`. Key settings:
 
 **No resumable checkpoints.** If training crashes, merge the last checkpoint and restart with `start_step` / `skip_batches` for manual fast-forward. Optimizer state is not saved.
 
+## Models trained with this
+
+- [Ministral-3-14B-writer](https://huggingface.co/thestarfarer/Ministral-3-14B-writer)
+
 ## Requirements
 
 - `transformers>=5.0.0.dev0` — Ministral 3 support requires dev/rc build
